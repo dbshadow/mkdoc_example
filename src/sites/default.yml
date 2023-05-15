@@ -1,0 +1,16 @@
+site_name: D-Link Documentation Service
+site_description: Getting Started with dmkdocs
+
+nav:
+  - Getting Started: 'src/index.md'
+  - Markdown Extensions:
+     - Material for MkDocs Built-In: 'src/extensions/material/index.md'
+     - Mermaid: 'src/extensions/mermaid/index.md'
+     - Includes: 'src/extensions/includes/index.md'
+
+plugins:
+  - exclude:
+      regex:
+        - '.*(^|\/)snippets\/.*$'
+      glob:
+        - src/sites/*
