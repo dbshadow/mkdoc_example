@@ -10,15 +10,15 @@ Install `Docker` on your host
 ---
 
 ```
-$ git clone https://Hufflepuff@dev.azure.com/Hufflepuff/dmkdocs/_git/dmkdocs-getting-started
+git@github.com:dbshadow/mkdoc_example.git
 ```
 
 ## Preview
 ---
 
 ```
-$ cd dmkdocs-getting-started
-$ docker run --rm -p 80:8000 -v "$(pwd)/src":/root/mkdocs/docs/src ctt828/dmkdocs
+$ cd mkdoc_example
+$ docker run --name docs --rm -p 80:8000 -v "$(pwd)/src":/root/mkdocs/docs/src dbshadow/dmkdocs
 ```
 
 Open `http://ip:80` in your browser
