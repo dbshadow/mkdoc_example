@@ -10,7 +10,7 @@ Install `Docker` on your host
 ---
 
 ```
-git@github.com:dbshadow/mkdoc_example.git
+git clone https://github.com/dbshadow/mkdoc_example.git
 ```
 
 ## Preview
